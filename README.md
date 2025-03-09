@@ -113,39 +113,3 @@ Bot Telegram hỗ trợ đặt tour du lịch với các tính năng đăng ký,
 2. Xem thông tin tài khoản
 3. Kiểm tra số đơn đặt tour
 4. Đăng xuất khi cần
-
-## Xử Lý Sự Cố
-
-1. Bot không phản hồi:
-   - Kiểm tra bot đang chạy
-   - Kiểm tra kết nối internet
-   - Thử khởi động lại bot
-
-2. Lỗi đăng ký/đăng nhập:
-   - Đảm bảo định dạng lệnh chính xác
-   - Kiểm tra mật khẩu không chứa ký tự đặc biệt
-
-3. Lỗi thanh toán:
-   - Kiểm tra thông tin thẻ (với thanh toán Stripe)
-   - Đảm bảo đơn hàng chưa hết hạn
-
-## Bảo Mật
-
-- Mật khẩu được mã hóa với bcrypt
-- Sử dụng JWT cho xác thực
-- Bảo vệ thông tin người dùng
-- Mã hóa dữ liệu thanh toán
-
-## Phát Triển
-
-Để thêm tour mới hoặc chỉnh sửa dữ liệu:
-1. Truy cập MongoDB
-2. Thêm/sửa dữ liệu trong collection tours
-3. Khởi động lại bot nếu cần
-
-## Lưu Ý
-
-- Đảm bảo bảo mật thông tin token và key
-- Backup dữ liệu thường xuyên
-- Cập nhật các package khi có phiên bản mới
-- Kiểm tra log để phát hiện lỗi 
