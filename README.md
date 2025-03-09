@@ -129,12 +129,6 @@ Bot Telegram hỗ trợ đặt tour du lịch với các tính năng đăng ký,
    - Kiểm tra thông tin thẻ (với thanh toán Stripe)
    - Đảm bảo đơn hàng chưa hết hạn
 
-## Hỗ Trợ
-
-Nếu cần hỗ trợ thêm, vui lòng liên hệ:
-- 📧 Email: <địa-chỉ-email>
-- 💬 Telegram: <username-telegram>
-
 ## Bảo Mật
 
 - Mật khẩu được mã hóa với bcrypt
